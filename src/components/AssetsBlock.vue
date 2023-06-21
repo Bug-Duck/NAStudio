@@ -34,8 +34,8 @@ export default {
   width: 300px;
   height: 100%;
   top: 200px;
-  bottom: 150px;
   right: 0px;
+  bottom: 25px;
   background-color: #4c4e4c;
   position: fixed;
   border: 1px solid #5a5a5a;

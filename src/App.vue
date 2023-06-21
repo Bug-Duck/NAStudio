@@ -13,9 +13,8 @@
       <ToolboxBlock />
     </div>
   </div>
-  <div class="bottom">
-    <BottomWord position="left" text="v0.1.0" />
-  </div>
+  <BottomWord :left="['v0.0.1']" :right="[]" />
+  
 </template>
 
 <script>
@@ -64,13 +63,4 @@ data() {
   clear: both;
 }
 
-.bottom {
-  height: 25px;
-  width: 100%;
-  background-color: #171717;
-  position: fixed;
-  bottom: 0;
-  border-top: 1px solid #5a5a5a;
-  left: 0px;
-}
 </style>
