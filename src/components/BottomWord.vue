@@ -43,6 +43,10 @@ export default {
   top: 3px;
 }
 
+.bottomLeftItem:hover {
+  background-color: #5a5a5a;
+}
+
 .bottomRightItem {
   color: white;
   font-family: sans-serif;

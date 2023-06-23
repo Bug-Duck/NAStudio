@@ -8,13 +8,12 @@
       <ObjectsAttributeBlock />
       <div>
         <CanvasBlock />
-        <AssetsBlock />
+        <ToolboxBlock />
       </div>
-      <ToolboxBlock />
+      <AssetsBlock />
     </div>
   </div>
   <BottomWord :left="['v0.0.1']" :right="[]" />
-  
 </template>
 
 <script>
@@ -29,19 +28,19 @@ import AssetsBlock from './components/AssetsBlock.vue';
 export default {
   name: 'App',
   components: {
-  ObjectsBlock,
+    ObjectsBlock,
     FrameEditingBlock,
     ObjectsAttributeBlock,
     CanvasBlock,
     ToolboxBlock,
     BottomWord,
     AssetsBlock
-},
-data() {
-  return {
-    objectsList: []
+  },
+  data() {
+    return {
+      objectsList: []
+    }
   }
-}
 }
 </script>
 
@@ -62,5 +61,4 @@ data() {
   display: table;
   clear: both;
 }
-
 </style>

@@ -8,7 +8,6 @@ export default {
   <div class="frame">
     <div class="player">
     </div>
-    <div class="situation"></div>
     <!-- <canvas
           height="150"
           width="800"
@@ -39,13 +38,5 @@ export default {
   left: 300px;
   border-bottom: 1px solid #5a5a5a;
   border-left: 1px solid #5a5a5a;
-}
-
-.situation {
-  background-color: #171717;
-  left: 336px;
-  height: 30px;
-  position: fixed;
-  width: 100%
 }
 </style>

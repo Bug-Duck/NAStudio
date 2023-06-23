@@ -1,12 +1,17 @@
 <script>
+import PlayButton from "./buttons/PlayButton.vue"
+
 export default {
-  name: "ToolboxBlock"
+  name: "ToolboxBlock",
+  components: {
+    PlayButton
+  }
 }
 </script>
 
 <template>
   <div class="tools">
-    <div></div>
+    <PlayButton/>
   </div>
 </template>
 
